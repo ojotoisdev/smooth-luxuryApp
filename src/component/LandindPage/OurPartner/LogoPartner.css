@@ -1,0 +1,82 @@
+.Partner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 100px 20px 40px; /* added side padding for smaller screens */
+  background-color: rgb(236, 241, 243);
+  position: relative;
+}
+
+.Partner-container h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #262338;
+  text-align: center; /* center on small screens */
+}
+
+.Partner-container p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #6E7191;
+  text-align: center;
+}
+
+.partner-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-categories img {
+  width: 124px;
+  height: 124px;
+  margin: 30px;
+}
+
+/* ============ Responsive Breakpoints ============ */
+
+@media (max-width: 1000px) {
+  .logo-categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Partner-container h1 {
+    font-size: 28px;
+  }
+  .Partner-container p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-categories {
+    grid-template-columns: 1fr;
+  }
+  .logo-categories img {
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+  }
+  .Partner-container h1 {
+    font-size: 24px;
+  }
+  .Partner-container p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,199 @@
+.cont-a{
+    padding-top: 2.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.2);  /* semi-transparent */
+    backdrop-filter: blur(10px);           /* blur background */
+    -webkit-backdrop-filter: blur(10px);
+    height: 100vh;
+    z-index: 3;
+    inset: 0;
+}
+
+.first-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-head h1{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 100%;
+    letter-spacing: 0rem;
+    color: #4E4B66;
+    margin-bottom: 0.625rem;
+}
+.contact-head p{
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #6E7191;
+    letter-spacing: 0.0625rem;
+}
+.contact-head img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 6.25rem;
+    border: 0.0625rem dashed #262338;
+    padding: 0.75rem;
+    margin-right: 1.25rem;
+}
+
+.first-form  input{
+    width: 23.1667rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    padding: 1.875rem 1rem 0.625rem 2.25rem;
+    background-color: #FAFAFF;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.0469rem;
+    color: #6E7191;
+}
+.first-form input:hover{
+    border: 0.125rem solid #FFDBBD;
+}
+.first-name{
+    position: relative;
+    margin: 2rem 0;
+}
+.clear-message{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    margin-right: 5%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.input-group{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    transition: all 0.2s ease;
+    pointer-events: none;
+    font-size: 1rem;
+    user-select: none;
+    color: #262338;
+}
+.first-form input:focus + .input-group,
+.first-form input:not(:placeholder-shown) + .input-group, 
+.first-form input:valid + .input-group {
+    top: 1.25rem;
+    left: 10%;
+    font-size: 0.8125rem;
+    color: #6E7191;
+    font-weight: 500;
+    line-height: 1.375rem;
+    letter-spacing: 0.0156rem;
+}
+.message-two{
+    width: 35.5rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    padding: 0.625rem 1rem 0.625rem 1rem;
+    background-color: #FAFAFF;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.0469rem;
+    color: #6E7191;
+    outline: none;
+}
+.message-two:hover{
+    border: 0.125rem solid #FFDBBD;
+}
+#clear-all{
+    transform: translateY(-50%);
+}
+
+.form-value{
+    width: 77.5rem;
+    height: 44.5rem;
+    background-color: #FFFFFF;
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+}
+.line{
+    width: 100%;
+    margin: 1.25rem 0rem 1.25rem;
+}
+
+.message-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom-phone-input-container .flag-dropdown{
+    background-color: transparent;
+    border: none;
+}
+.custom-phone-input-container .flag{
+    display: block;
+}
+.custom-phone-input-container .arrow{
+    position: absolute;
+    left: 0.625rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.875rem;
+    display: block;
+}
+textarea{
+    width: 72.5rem;
+    height: 12.5rem;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem 1rem 1.5rem;
+    background-color: #FAFAFF;
+    border: none;
+    outline: none;
+    margin-top: 0.625rem;
+}
+textarea::placeholder{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.0469rem;
+    color: #6E7191;
+}
+.my-down-submit-button{
+    position: relative;
+    float: right;
+    margin-top: 1.25rem;
+}
+.my-down-submit-button button{
+    width: 8.9375rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    padding: 1rem 2.8125rem 1rem 1.5rem;
+    background-color: #FF9943;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.0469rem;
+    color: #FCFCFC;
+    border: none;
+}
+.my-down-submit-button img{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    margin: 0.9375rem 1.25rem;
+}

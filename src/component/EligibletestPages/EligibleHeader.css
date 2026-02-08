@@ -1,0 +1,61 @@
+.Eligibe-container{
+    padding-top: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Group2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10rem;
+    margin-right: 14.375rem;
+}
+.test-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14.75rem;
+    width: 77.375rem;
+    height: 21rem;
+}
+.test-menu h1{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 6.25rem;
+    letter-spacing: 0rem;
+    color: #262338;
+}
+.test-menu p{
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.0625rem;
+    color: #4E4B66;
+}
+.test-menu img{
+    margin-top: 6.25rem;
+}
+.test-paragraph{
+    margin-top: 0.625rem;
+}
+.test-paragraph p{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: 0%;
+    color: #6E7191;
+}
+.test-paragraph p:last-of-type{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.test-paragraph ul li{
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: 0%;
+    color: #6E7191;
+    margin-left: 2.1875rem;
+}

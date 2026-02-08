@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+    --color-primary:#262338; 
+    --color-secondary:#6E7191;
+    --color-secondary-dark:#4E4B66;
+    --color-primary-4:#A0A3BD;
+    --color-primary-2:#3BA378;
+    --color-primary-3:#FFA65A;
+    --color-primary-light:#D9DBE9;
+    --color-secondary-2:green;
+    --color-secondary-dark-2:#FCFCFC;
+    --color-background:#FF9943;
+    --color-background-2:#F1F5F5;
+}
+body{
+  min-height: 100vh;
+  
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}

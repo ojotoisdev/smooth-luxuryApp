@@ -1,0 +1,50 @@
+.flow-layout{
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 120px;
+    height: 56px;
+    width: 697px;
+    justify-content: space-between;
+}
+.step-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 414px;
+    height: 56px;
+    
+}
+.step-footer button{
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    padding: 12px;
+    background-color: #FCFCFC;
+    border: none;
+}
+.img-infor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+.img-infor img{
+    width: 48px;
+    height: 48px;
+    background-color: #FCFCFC;
+    border-radius: 100px;
+    padding: 12px;
+}
+.step-indicator{
+    background-color: #FCFCFC;
+    border-radius: 100px;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #A0A3BD;
+}

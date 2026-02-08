@@ -1,0 +1,126 @@
+.tral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.travellers{
+    display: flex;
+   
+}
+.business-img{
+    background-image: url('../../assets/images/FrameTop.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 643px;
+    height: 840px;
+    padding: 100px 80px 100px 100px;
+}
+.itemsone{
+    position: relative;
+    width: 797px;
+    height: 840px;
+    padding: 90px 0px 0px 50px;
+    
+    align-items: center;
+    overflow: hidden;
+    color: #fff;
+    z-index: 0;
+}
+.itemsone::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 797px;
+    height: 100%;
+    background-image: url('../../assets/images/about-image.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 10%;
+    z-index: -1;
+}
+.Business-travel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 657px;
+    height: 64px;
+    justify-content: space-between;
+}
+.Business-travel h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #4E4B66;
+    margin-bottom: 10px;
+}
+.Business-travel p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #6E7191;
+    margin-bottom: 30px;
+}
+.business-button button{
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    padding: 12px;
+    background-color: #FCFCFC;
+    border: none;
+}
+.list-document h2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #6E7191;
+    text-indent: 2px;
+    margin-bottom: 20px;
+}
+.instruction-list li{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-indent: 2px;
+    letter-spacing: 0.5px;
+    color: #4E4B66;
+    margin-left: 25px;
+}
+
+.instruction-list li a{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-indent: 2px;
+    letter-spacing: 0.5px;
+    text-decoration: underline;
+    offset: 0%;
+    color: #FFA65A;
+    font-style: italic;
+}
+.sub-topic{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-indent: 2px;
+    letter-spacing: 0.5px;
+    color: #4E4B66;
+    margin-bottom: 20px;
+}
+.sub-ul{
+    margin-left: 10px;
+    list-style: disc;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-indent: 2px;
+    letter-spacing: 0.5px;
+    color: #4E4B66;
+    margin-left: 35px;
+    margin-bottom: 90px;
+}

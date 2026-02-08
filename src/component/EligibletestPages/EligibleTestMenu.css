@@ -1,0 +1,170 @@
+
+.Menu-test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 150px;
+}
+.main-test{
+    display: flex;
+    flex-direction: row;
+}
+.map-color{
+    background-color: #3BA378;
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    width: 700px;
+    height: 940px;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+.map-color ul li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #D9DBE9;
+    margin-left: 48px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+.map-color p{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color:  #D9DBE9;
+    padding-top: 29px;
+    padding-right: 5px;
+    margin-left: 10px;
+}
+.map-color .globe{
+    width: 576.0115356445312px;
+    height: 576px;
+    position: absolute;
+    opacity: 0.1;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    margin-right: 110px;
+}
+.map-color::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: green;
+  opacity: 0.1;
+  z-index: 1;
+  pointer-events: none; /* so it doesn’t block clicks */
+}
+.map-color > * {
+    position: relative;
+    z-index: 2;
+}
+.map-color h1{
+    color: #D9DBE9;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+.image-tab-one{
+    background-image: url('../../assets/images/Rectangle 571.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 997px;
+    height: 470px;
+    
+    
+}
+.image-tab{
+    background-image: url('../../assets/images/Rectangle 570.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 997px;
+    height: 470px;
+    
+}
+.Map-img{
+    display: flex;
+    flex-direction: column;
+    
+}
+.child-tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    margin-top: 350px;
+}
+.Tab-content{
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+.Tab-content h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #FCFCFC;
+    margin-bottom: 20px;
+}
+.Tab-content p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FCFCFC;
+}
+
+.test-button{
+    margin-top: 50px;
+    position: relative;
+    margin-left: 10px;
+}
+.test-button img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    margin-top: 19px;
+    
+}
+.test-button button{
+    width: 242px;
+    height: 56px;
+    border-radius: 32px;
+    padding-top: 16px;
+    padding-right: 50px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    background-color: #FF9943;
+    border: none;
+    color: #FCFCFC;
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    line-height: 24px;
+    font-weight: 700;
+    
+    font-family: 'Poppins', sans-serif;
+}
+.Tab-button button{
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    padding: 12px;
+    margin-right: 80px;
+    margin-top: 10px;
+    border: none;
+}

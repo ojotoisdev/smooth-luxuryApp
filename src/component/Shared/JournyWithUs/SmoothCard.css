@@ -1,0 +1,109 @@
+.Trip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.25rem;
+  padding: 4rem;
+  width: 100%;
+  max-width: 75%; /* keeps large layout on wide screens */
+  min-height: 18.75rem;
+  position: relative; /* remove absolute for responsiveness */
+  border-radius: 20px;
+  background-color: #FCFCFC;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.curve {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 18.75rem;
+  height: 18.75rem;
+  background: linear-gradient(95.08deg, #99FE67 2.49%, #00994D 97.19%);
+  border-bottom-left-radius: 100%;
+  transform: translate(50%, -50%);
+  pointer-events: none;
+}
+
+.down-curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 18.75rem;
+  height: 18.75rem;
+  background: linear-gradient(95.08deg, #2167e1 2.49%, #30b9d8 47.37%, #4cdaaf 97.19%);
+  border-top-right-radius: 100%;
+  transform: translate(-50%, 50%);
+  pointer-events: none;
+}
+
+.Trip h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  margin: 50px 0 10px;
+  color: #262338;
+  text-align: center;
+}
+
+.Trip h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #4E4B66;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* ================= Responsive ================= */
+
+@media (max-width: 1000px) {
+  .Trip {
+    padding: 3rem 2rem;
+  }
+  .curve, .down-curve {
+    width: 12rem;
+    height: 12rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Trip {
+    padding: 2.5rem 1.5rem;
+  }
+  .Trip h1 {
+    font-size: 28px;
+  }
+  .Trip h2 {
+    font-size: 18px;
+  }
+  .curve, .down-curve {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Trip {
+    padding: 2rem 1rem;
+  }
+  .Trip h1 {
+    font-size: 24px;
+  }
+  .Trip h2 {
+    font-size: 16px;
+  }
+  .curve, .down-curve {
+    display: none; /* hide curves on very small screens */
+  }
+}

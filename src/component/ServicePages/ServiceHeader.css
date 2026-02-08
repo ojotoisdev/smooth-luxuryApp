@@ -1,0 +1,39 @@
+
+.Service-container{
+    padding-top: 85px;
+}
+.my-service{
+    
+    background-image: url('../../assets/images/service.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    
+    top: 0;
+    height: 364px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    padding-top: 80px;
+    padding-left: 130px;
+    
+    
+}
+
+.my-service h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #fcfcfc;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.my-service p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #EFF0F6;
+}
