@@ -23,6 +23,7 @@ type BookingCard = {
   title: string;
 };
 
+
 const DEFAULT_TITLES: Record<string, string> = {
   Transportation: "Luxury SUV Pickup (within 10 km)",
   "VISA on arrival": "Individual",
