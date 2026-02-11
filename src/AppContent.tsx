@@ -18,7 +18,7 @@ import SmoothCardPage from './component/Modals/Subpages/SmoothCardPage';
 import ContactUs from './component/Modals/ContactUs/ContactUs';
 import LayoutWrapper from './Layout/LayoutWrapper';
 import { useState } from 'react';
-
+import "./App.css"
 const AppContent = () => {
   const location = useLocation();
   const hideNavbarPaths = [
@@ -32,7 +32,7 @@ const AppContent = () => {
   ];
   const shouldHideNavbar = hideNavbarPaths.includes(location.pathname.toLowerCase());
 
-  // Only need state for ContactUs now
+  
   const [isContactVisible, setContactVisible] = useState(true);
 
   return (
@@ -56,10 +56,10 @@ const AppContent = () => {
         <Route path="/travelers" element={<Travelers />} />
         <Route path="/travelers/step2" element={<TravelersStep2 />} />
 
-        {/* Smooth Card Page */}
+       
         <Route path="/smoothcard" element={<SmoothCardPage />} />
 
-        {/* Contact Us Modal */}
+       
         <Route 
           path="/contactus" 
           element={

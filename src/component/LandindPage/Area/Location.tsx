@@ -5,6 +5,7 @@ import Service from '../../../assets/icons/Map.png'
 const Locations = () => {
   return (
     <div className='Location'>
+      <div className="su-area">
       <div className="service-area">
         <img src={Service} alt="" />
         <h1>Service area</h1>
@@ -47,6 +48,7 @@ const Locations = () => {
             </span>
           </button>
         </div>
+      </div>
       </div>
     </div>
   )

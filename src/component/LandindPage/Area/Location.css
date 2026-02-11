@@ -4,14 +4,22 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    margin-top: 10rem;
+    margin-top: 55rem;
     min-height: 100vh;
     display: flex;
     
     justify-content: center;
-    align-items: center;
+    
     padding: 10rem;
+    /* justify-content: space-between; */
+}
+.su-area{
+    display: flex;
+    width: 95%;
+     max-width: 1240px; 
+    align-items: center;
     justify-content: space-between;
+
 }
 .service-area{
     display: flex;

@@ -9,7 +9,7 @@
     backdrop-filter: blur(10px);           /* blur background */
     -webkit-backdrop-filter: blur(10px);
     height: 100vh;
-    z-index: 4;
+    z-index: 9999;
     inset: 0;
 }
 

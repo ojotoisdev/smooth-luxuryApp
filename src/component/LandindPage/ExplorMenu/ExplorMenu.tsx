@@ -12,6 +12,7 @@ import Aeroplane from '../../../assets/images/Rectangle 563.png'
 import { Fragment } from 'react/jsx-runtime';
 import SmoothcardFormModal from '../../Modals/Subpages/SmoothcardFormModal';
 import { useState } from 'react';
+import ExploreCard from '../../Card/ExploreCard';
 
 
 const ExplorMenu = ( ) => {
@@ -29,44 +30,78 @@ const [showModal, setShowModal] = useState(false)
   return (
     <Fragment>
     <div className="container-2">
+      <div className="card-menue">
         <h1 className='sub-head'>What we offer</h1>
         <p className='child'>Smooth Luxury Logistics utilizes our proprietary systems to provide information and services to people desiring to visit <br /> Nigeria, whether foreigners or Nigerians in Diaspora. <br />We operate luxurious vehicles that take you smoothly to your destination anywhere in the country, get you the best rates <br /> at our network of hotels, and even help you book Domestic Flights throughout the country without putting pressure on your <br /> budge, Feel free to allow us to manage your next trip to Nigeria!</p>
       <div className='offer-menue'>
         <div className="menu-items ">
-            <div className="features">
-                <img src={Car} alt="" className='imgo' />
-                <h1>IMMIGRATION SUPPORT SERVICES</h1>
-                <p>Our Visa On Arrival submission service is <br /> the culmination of experience, our unique expertise, and <br /> the relationships we have built throughout Nigeria. <br /> Our Visa On Arrival couriers do the "leg-work" for you, <br /> to insure your paperwork is processed efficiently <br /> and potential issues with your travel plans are identified <br /> immediately. The Service guides you through the <br /> hurdles you will encounter along the way.</p>
-            </div>
-            <div id='Greet' className="features">
-                <img src={Greet} alt="" className='imgo' />
-                <h1>MEET & GREET</h1>
-                <p>A Smooth Luxury Logistics team member will meet you as <br /> you arrive at the Airport and escort you through the <br /> process, from disembarking the plan until processing <br /> through Customs. We offer the assurance of efficient,<br /> lawful movement throughout the entry stations, with the <br /> proper paperwork already secured for you to enter <br /> Nigeria in the 'Smoothest' possible way!</p>
-            </div>
+          <ExploreCard
+          icon={Car}
+          title="IMMIGRATION SUPPORT SERVICES"
+          description='Our Visa On Arrival submission service is the culmination of experience, our unique expertise, and the relationships we have built throughout Nigeria. Our Visa On Arrival couriers do the "leg-work" for you, to insure your paperwork is processed efficiently and potential issues with your travel plans are identified  immediately. The Service guides you through the hurdles you will encounter along the way'
+          padding={40}
+          width={575}
+          height={448}
+           titleDescriptionSpacing={20} 
+           iconTitleSpacing={30} 
+          />
+
+          <ExploreCard
+          icon={Greet}
+          title="MEET & GREET"
+          description='A Smooth Luxury Logistics team member will meet you as you arrive at the Airport and escort you through the process, from disembarking the plan until processing through Customs. We offer the assurance of efficient, lawful movement throughout the entry stations, with the  proper paperwork already secured for you to enter Nigeria in the Smoothest possible way!'
+          padding={40}
+          width={575}
+          height={448}
+           titleDescriptionSpacing={20} 
+           iconTitleSpacing={30} 
+          />
+           
+            
         </div>
         <div  className="menu-items imgo-1">
-            <div className="Booking">
-                <img src={Ticket} alt="" className='imgo' />
-                <h1>TICKETING</h1>
-                <p>Let Smooth Luxury Logistics take care of navigating your <br /> travel arrangements. With new travel restrictions, Visa <br /> Applications, and other paperwork challenges, getting <br /> your travel plans set is a challenge. We work with you to <br /> develop your itinerary - flight times, <br /> arrival times, departure times, seating arrangements, and more. Let <br /> Smooth Luxury Logistics be your Agent for travel <br /> throughout Nigeria!</p>
-            </div>
-            <div id='' className="features ">
-                <img src={Booking} alt="" className='imgo' />
-                <h1>HOTEL BOOKING</h1>
-                <p>We know Lagos! Whether traveling to Nigeria on <br /> business, for vacation or coming home for the holidays, <br /> our Concierge Service will book your Hotel room in the <br /> heart of your travel plans. Be centrally located for your <br /> meetings and travel destinations, or enjoy the charm of <br /> the local neighborhood restaurants. We know Lagos, and <br /> you'll love the convenience you'll experience when our <br /> team does the work for you!</p>
-            </div>
+          <ExploreCard
+          icon={Ticket}
+          title="TICKETING"
+          description='Let Smooth Luxury Logistics take care of navigating your travel arrangements. With new travel restrictions, Visa Applications, and other paperwork challenges, getting your travel plans set is a challenge. We work with you to develop your itinerary - flight times, arrival times, departure times, seating arrangements, and more. Let Smooth Luxury Logistics be your Agent for travel throughout Nigeria!'
+          padding={40}
+          width={607.5}
+          height={448}
+           titleDescriptionSpacing={20} 
+           iconTitleSpacing={30}
+           marginLeft={80} 
+          />
+          <ExploreCard
+          icon={Booking}
+          title="HOTEL BOOKING"
+          description='We know Lagos! Whether traveling to Nigeria on business, for vacation or coming home for the holidays, our Concierge Service will book your Hotel room in the heart of your travel plans. Be centrally located for your meetings and travel destinations, or enjoy the charm of the local neighborhood restaurants. We know Lagos, and you ll love the convenience youll experience when our team does the work for you!'
+          padding={40}
+          width={607.5}
+          height={448}
+           titleDescriptionSpacing={20} 
+           iconTitleSpacing={30} 
+          />
+            
+          
         </div>
-        <div id='ticket' className="menu-items  ">
-            <div className="Provision">
-                <img src={Ticket} alt="" className='imgo' />
-                <h1>PROVISION OF LUXURIOUS SUVS</h1>
-                <p>We operate luxurious vehicles, primarily the Lexus <br /> GX460, to take you 'Smoothly' to your destination- <br /> anywhere in the country without putting pressure on your <br /> budget. Or, we'll handle your rental reservations so you <br /> don't have to worry and can travel freely to your <br /> destination of choice.</p>
-            </div>
+        <div id='ticket' className="menu-items categories-items  ">
+          <ExploreCard
+          icon={Ticket}
+          title="PROVISION OF LUXURIOUS SUVS"
+          description={`We operate luxurious vehicles, primarily the Lexus GX460, to take you Smoothly to your destination- anywhere in the country without putting pressure on your budget. Or, we'll handle your rental reservations so you don't have to worry and can travel freely to your destination of choice.`}
+          padding={40}
+          width={607.5}
+          height={392}
+           titleDescriptionSpacing={20} 
+           iconTitleSpacing={30} 
+           marginLeft={80} 
+          />
             <div>
               <img src={Aeroplane} alt=""  className='Aeroplane'/>
             </div>
             
         </div>
+      </div>
       </div>
         
     <div className="information">
